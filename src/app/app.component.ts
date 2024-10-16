@@ -7,7 +7,7 @@ import {SearchComponent} from './search/search.component';
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [CommonModule, RouterLink, RouterLinkActive, RouterOutlet, HomePageComponent, SearchComponent],
+  imports: [CommonModule, RouterLink, RouterLinkActive, RouterOutlet, HomePageComponent, SearchComponent, ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
